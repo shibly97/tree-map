@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Movie Sales</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+</head>
+<body>
+    <h1 id="title">Highest Grossing Movies</h1>
+    <h2 id='description'>Top 95 Highest Grossing Movies Sorted By Revenue</h2>
+    <div id="tooltip">
+
+    </div>
+    <svg id='canverse'>
+    
+    </svg>
+    <svg id="legend" width='400'>
+        <g>
+            <rect class='legend-item' x='10' y='0' width = '40' height='40' fill='orange'></rect>
+            <text x='60' y='30' fill='black'>Action</text>
+        </g>
+        <g>
+            <rect class='legend-item' x='10' y='40' width = '40' height='40' fill='lightgreen'></rect>
+            <text x='60' y='70' fill='black'>Drama</text>
+        </g>
+        <g>
+            <rect class='legend-item' x=10 y='80' width = '40' height='40' fill='blue'></rect>
+            <text x='60' y='110' fill='black'>Adventure</text>
+        </g>
+        <g>
+            <rect class='legend-item' x=130 y='0' width = '40' height='40' fill='lightblue'></rect>
+            <text x='180' y='30' fill='black'>Family</text>
+        </g>
+        <g>
+            <rect class='legend-item' x='130' y='40' width = '40' height='40' fill='pink'></rect>
+            <text x='180' y='70' fill='black'>Animation</text>
+        </g>
+        <g>
+            <rect class='legend-item' x='130' y='80' width = '40' height='40' fill='khaki'></rect>
+            <text x='180' y='110' fill='black'>Comedy</text>
+        </g>
+        <g>
+            <rect class='legend-item' x='250' y='0' width = '40' height='40' fill='tan'></rect>
+            <text x='300' y='30' fill='black'>Biography</text>
+        </g>
+    </svg>
+</body>
+<script src="tree map.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
